@@ -1,0 +1,17 @@
+.contents {
+  height: 1000px;
+  background-color: rgb(31, 102, 235);
+  padding: 350px 100px 100px 200px;
+  .main-contents__form {
+    .main-contents__form__input {
+      height: 50px;
+      width: 600px;
+    }
+    .main-contents__form__button {
+      height: 54px;
+      width: 80px;
+      position: absolute;
+      margin: 0 10px;
+    }
+  }
+}
