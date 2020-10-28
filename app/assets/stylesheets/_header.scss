@@ -1,0 +1,32 @@
+.TPmain {
+  background-color: cornflowerblue;
+  height: 100%;
+    .main-header {
+      background-color: cornflowerblue;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+    .left-header {
+      &__icon {
+        i {
+          display: inline-block;
+          font: nomal nomal nomal 14px/1 FontAwesome;
+          font-size: inherit;
+          text-rendering: auto;
+          -webkit-font-smoothing: antialiased;
+        }
+      }
+      &__title {
+        font-size: 30px;
+        text-decoration: none;
+      }
+      }
+    .right-header {
+      li {
+        list-style: none;
+        float: left;
+        margin: 25px 10px;
+      }
+    }
+    }
+    }
