@@ -1,0 +1,26 @@
+.TPmain
+  .main-header
+    .left-header
+      .left-header__icon
+        %i
+          = icon('fa','calender-alt')
+          .left-header__title
+            todo
+
+    .right-header
+      -if user_signed_in?
+        %li
+          = link_to 'ボードに戻る', class:'/'
+        %li
+          = link_to 'ログアウト', class:'/'
+      -else
+        %li
+          = link_to 'ログイン', class:'/'
+        %li
+          = link_to '新規会員登録', class:'/'
+
+-# .contents
+-#   %form.main-contents__form
+-#     %input.main-contents__form__input{placeholder: "メールアドレス"}/
+-#     %button.main-contents__form__button{type: "submit"}
+-#       -# = f.submit "アカウント作成", class: "main-contents__form__button"
