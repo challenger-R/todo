@@ -63,4 +63,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'haml-rails' #hamlを使用するため
 gem 'devise' #ログイン機能
-gem "font-awesome-sass" #アイコン導入
+gem 'font-awesome-sass' #アイコン導入
