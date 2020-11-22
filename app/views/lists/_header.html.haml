@@ -10,14 +10,14 @@
     .right-header
       -if user_signed_in?
         %li
-          = link_to 'ボードに戻る', class:'/'
+          = link_to 'ボードに戻る', list_index_path, class:'contents'
         %li
-          = link_to 'ログアウト', class:'/'
+          = link_to 'ログアウト', destroy_user_session_path, method: :delete, class:'right-header-out'
       -else
         %li
-          = link_to 'ログイン', class:'/'
+          = link_to 'ログイン', new_user_session_path, class:'right-header-in'
         %li
-          = link_to '新規会員登録', class:'/'
+          = link_to '新規会員登録', new_user_registration_path, class:'right-header-up'
 
 -# .contents
 -#   %form.main-contents__form
